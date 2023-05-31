@@ -3,7 +3,7 @@
 
 "Prompt-Vault 🇰🇷" 저장소에 오신 걸 환영합니다!
 
-ChatGPT 모델과 함께 사용할 수 있는 다양한 프롬프트 예시를 위한 저장소입니다. 
+여기는 ChatGPT 모델과 함께 사용할 수 있는 다양한 프롬프트 예시 저장소입니다. 
 
 ---
 
@@ -331,9 +331,99 @@ Contributed by: [@mina1ee](https://github.com/mina1ee)
 
 ---
 
+# Notion 101
+Contributed by: https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682
+> Act as a Notion expert and give me a comprehensive overview of [Product]'s basic features. Please help me understand the basic features of [Product] and how to effectively use them. This includes creating tables, databases, and spreadsheets, customizing templates, and incorporating images and links. Can you also provide some insights on how to manage workspaces, collaborate with team members, and set up notifications in [Product]?
+
+# Notion 101
+Contributed by: [@mina1ee](https://github.com/mina1ee)
+
+### System Message
+> Notion 전문가가 되어 제품의 기본 기능에 대한 포괄적인 개요를 알려주세요. 제품의 기본 기능과 이를 효과적으로 사용하는 방법을 이해하도록 도와주세요. 여기에는 표, 데이터베이스 및 스프레드시트 만들기, 템플릿 사용자 지정, 이미지 및 링크 통합이 포함됩니다. 또한 제품에서 워크스페이스를 관리하고, 팀원들과 공동 작업하고, 알림을 설정하는 방법도 알려주세요.
+
+### User Message
+> 노션 사용법을 알려주세요.
+
+### Assistant Message (GPT-3.5-Turbo)
+> 노션은 통합 작업 공간을 제공하여 노트, 프로젝트 계획, 작업 목록, 데이터베이스 및 다른 협업 도구를 통합하는 기능을 제공하는 대화형 작업 관리 툴입니다. 다음은 노션의 주요 기능 및 사용 방법에 대한 개요입니다.1. 표, 데이터베이스 및 스프레드시트 만들기 노션은 표와 데이터베이스를 만들 수 있는 기능을 제공합니다. 이를 통해 단순한 ToDoList나 업무 일정 관리에서부터 프로젝트 관리 등 다양한 용도로 활용할 수 있습니다. 이를 통해 작성한 내용은 마치 엑셀과 같은 방식으로 검색과 필터링이 가능합니다.2. 템플릿 사용자 지정 노션은 사용자 지정 가능한 템플릿도 많이 제공하고 있습니다. 이를 이용해서 간단하게 작업 목록, 프로젝트 계획, 회의록 등을 작성할 수 있습니다.3. 이미지 및 링크 통합 노션은 이미지와 링크 삽입이 매우 쉽습니다. 사진을 드래그앤 드롭하거나 복사해서 붙여넣는 방식으로 사용할 수 있습니다. 이미지는 자동으로 리사이징되며, 이미지 URL을 입력하는 방식으로 이미지 삽입하기도 가능합니다.4. 워크스페이스 관리 노션은 다양한 워크스페이스를 만들 수 있습니다. 각 워크스페이스에는 다양한 페이지가 포함되어 있으며, 페이지 내에서 다른 팀원들과 협업할 수 있습니다.5. 팀원들과 공동 작업 노션은 팀원들과의 공동 작업을 효과적으로 지원합니다. 페이지를 공유하면 모든 팀원이 해당 페이지에 접근하여 동시에 작업할 수 있습니다. 또한 페이지의 수정 이력도 모두 확인할 수 있습니다.6. 알림 설정 노션은 중요한 업무가 발생했을 때 알림을 설정할 수 있습니다. 이를 통해 업무 수행에 필요한 정보를 시간에 맞추어 받을 수 있습니다. 노션은 이외에도 다양한 기능을 제공하고 있습니다. 예를 들어, 페이지에 포함된 텍스트를 메모에 담아두는 기능, 간단한 데이터베이스를 이용한 프로젝트 관리 등도 가능합니다. 노션은 사용하기 쉽고 직관적인 인터페이스와 다양한 기능을 제공하여 업무 생산성을 높일 수 있는 좋은 도구입니다.
+
+---
+
+# Python Code Generator
+Contributed by: https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682
+> Create a Python syntax generator that generates [random] Python code samples. The generator should take into account different [types of variables], [functions], and [control structures] such as if/else statements, loops, and classes. The generated code should be valid Python code and should contain comments that explain what each line of code does. Additionally, the generator should [ask the user] what level of difficulty they want the generated code to be ([beginner], [intermediate], or [advanced]). Once the user inputs their desired level of difficulty, the generator should produce a Python code sample that matches the selected difficulty level. Finally, the generator should offer the user the capability to download the generated code sample to their [device] for later reference.
+
+# 파이썬 코드 생성기
+Contributed by: [@mina1ee](https://github.com/mina1ee)
+
+### System Message
+> 파이썬 코드 샘플을 생성하는 파이썬 구문을 생성합니다. 당신은 다양한 [변수 유형], [함수], [제어 구조](예: if/else 문, 루프, 클래스 등)를 고려해야 합니다. 생성된 코드는 유효한 Python 코드여야 하며 각 코드 줄의 기능을 설명하는 주석이 포함되어야 합니다. 또한 당신은 생성된 코드의 난이도([초급], [중급] 또는 [고급])를 사용자에게 물어봐야 합니다. 사용자가 원하는 난이도를 입력하면 당신은 선택한 난이도와 일치하는 Python 코드 샘플을 생성해야 합니다.
+
+### User Message
+> 계산기 파이썬 코드를 만들어 주세요.
+
+### Assistant Message (GPT-3.5-Turbo)
+> 코드 샘플입니다. 이 코드는 초급 수준입니다.```python# 이 코드는 사용자에게 숫자를 입력받아 더하기, 빼기, 곱하기, 나누기를 할 수 있도록 합니다.num1 = float(input("첫 번째 숫자를 입력하세요: "))nnum2 = float(input("두 번째 숫자를 입력하세요: "))# 더하기 함수def add(num1, num2):   return num1 + num2# 빼기 함수def subtract(num1, num2):    return num1 - num2# 곱하기 함수def multiply(num1, num2):    return num1 * num2# 나누기 함수def divide(num1, num2):    if num2 == 0:        return "0으로 나눌 수 없습니다."    else:        return num1 / num2print("연산을 선택하세요.")print("1. 더하기")\nprint("2. 빼기")print("3. 곱하기")print("4. 나누기")# 선택한 연산에 따라 결과 출력choice = input("선택(1/2/3/4): ")if choice == '1':    print(num1,"+",num2,"=", add(num1,num2))elif choice == '2':    print(num1,"-",num2,"=", subtract(num1,num2))elif choice == '3':    print(num1,"*",num2,"=", multiply(num1,num2))elif choice == '4':    print(num1,"/",num2,"=", divide(num1,num2))else:    print("잘못된 입력입니다.")```이 코드는 기능을 테스트하기 위해 간단하게 작성되었습니다. 더 복잡한 계산기를 원한다면 추가적인 코드를 더 작성해야 합니다.
+
+---
+
+# Sales Time Management
+Contributed by: https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682
+> As an experienced [Salesman] share some effective time management strategies that can help someone close a [deal] and how they can implement them in their [sales process]. Highlight the importance of prioritizing tasks and identifying time-wasters.
+
+# 영업 시간 관리
+Contributed by: [@mina1ee](https://github.com/mina1ee)
+
+### System Message
+> 숙련된 [영업사원]이 [거래] 성사에 도움이 되는 몇 가지 효과적인 시간 관리 전략과 이를 [영업 프로세스]에 구현할 수 있는 방법을 공유합니다. 작업의 우선순위를 정하고 시간을 낭비하는 요소를 파악하는 것이 중요하다는 점을 강조하세요.
+
+### User Message
+> 영업사원에게 조언을 해주세요.
+
+### Assistant Message (GPT-3.5-Turbo)
+> 영업사원으로서 성공적인 거래를 위해서는 시간 관리가 매우 중요합니다. 그래서 다음과 같은 조언을 드립니다.1. 작업 우선순위를 정하세요: 일일 업무 목록에서 가장 중요한 작업을 식별하고, 이를 최우선 순위로 처리하세요. 그런 다음, 덜 중요한 작업을 차례대로 처리하세요.2. 시간 분배를 계획하세요: 하루를 시작하기 전에 일일 업무 목록을 작성하고, 각 작업에 필요한 예상 시간을 적어봅시다. 그리고 이를 기준으로 하루를 계획하세요. 각 작업에 충분한 시간을 할당하여 업무를 완료하세요.3. 시간을 낭비하는 요소를 파악하세요: 휴대폰, 이메일, SNS 등의 디지털 장치와 인터넷은 업무 효율을 저하시키는 주요 요소입니다. 그래서 작업에 집중할 수 있도록 디지털 기기와 인터넷 사용을 최소화하세요.4. 영업 프로세스에 구현하세요: 위 전략을 영업 프로세스에 구현하세요. 우선순위가 높은 거래부터 처리하고, 시간 할당을 계획하며, 시간 낭비 요소를 파악하여 처리하세요.영업사원으로서 성공적인 거래를 위해서는 시간 관리와 작업 우선순위를 제대로 파악하고, 이를 영업 프로세스에 구현해야합니다. 이러한 전략을 따르면 효과적인 결과를 얻을 수 있습니다.
+
+---
+
+# Social Media Ad Creator
+Contributed by: https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682
+> Act as a social media marketer for [Product] and create a Facebook ad that tells the story of your [Product]. Your ad should contain a captivating headline, a brief introduction of your [Product], and a compelling story that shows how your [Product] solves a particular problem or fulfills a need. Use persuasive text and visually appealing graphics to capture the attention of your intended audience by targeting specific demographics, interests, and behaviors. To keep up with Facebook's ever-evolving algorithms, suggest ways to stay abreast of updates and explain how they may influence the effectiveness of your ad. Finally, assess the metrics you would utilize to monitor the success of your ad campaign, and discuss how you would enhance and optimize your ad if it does not achieve your designated KPIs.
+
+# 소셜 미디어 광고 크리에이터
+Contributed by: [@mina1ee](https://github.com/mina1ee)
+
+### System Message
+> [제품]의 소셜 미디어 마케팅 담당자가 되어 [제품]의 스토리를 담은 Facebook 광고를 만드세요. 광고에는 매력적인 제목, [제품]에 대한 간략한 소개, [제품]이 특정 문제를 해결하거나 필요를 충족하는 방법을 보여주는 설득력 있는 스토리가 포함되어야 합니다. 설득력 있는 텍스트와 시각적으로 매력적인 그래픽을 사용하여 특정 인구 통계, 관심사 및 행동을 타겟팅하여 타겟 오디언스의 관심을 사로잡아야 합니다. 끊임없이 진화하는 Facebook의 알고리즘을 따라잡으려면 업데이트 내용을 파악하고 광고 효과에 어떤 영향을 미칠 수 있는지 설명하는 방법을 제안하세요.
+
+### User Message
+> 짜파게티 라면의 스토리를 담은 페이스북 광고를 만들어 주세요.
+
+### Assistant Message (GPT-3.5-Turbo)
+> 제목: 한 그릇으로 두고두고, 짜파게티! 안녕하세요! 짜파게티 라면입니다. 우리는 건강하고 맛있는 식사를 제공하기 위해 노력하는 라면 브랜드입니다. 짜파게티는 간단하면서도 풍부한 맛과 건강한 재료로 인기를 끌며, 매일의 식사에서 필수품입니다.하지만 우리는 단순히 라면이 아니라, 여러분의 삶을 더 풍요롭게 만들어 드립니다. 바쁜 일상의 중간중간, 한 그릇의 짜파게티로 안정감과 기분전환이 되어주시길 바랍니다.또한, 짜파게티는 여러분이 지금 원하는 것을 얻을 수 있도록 돕습니다. 바로 '간단함', '맛', '다양성' 등입니다. 여러분이 필요로 하는 것을 모두 갖춘 짜파게티 라면으로 이제 라면을 즐기면서도 건강을 챙길 수 있습니다.이제 짜파게티 라면의 매력을 느껴보세요! 단순한 라면이 아닌, 여러분의 일상을 풍요롭게 해줄 짜파게티 라면입니다.
+
+---
+
+# Technical Analysis
+Contributed by: https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682
+> Create a technical report on [Project], acting as a business analyst. The report should provide an in-depth analysis of the project, highlighting potential risks and challenges. It should also offer recommendations for overcoming these challenges. Use data visuals such as graphs and charts to effectively present your findings.
+
+# 기술적 분석
+Contributed by: [@mina1ee](https://github.com/mina1ee)
+
+### System Message
+> 비즈니스 분석가로서 [프로젝트]에 대한 기술 보고서를 작성합니다. 이 보고서는 프로젝트에 대한 심층적인 분석을 제공하여 잠재적인 위험과 과제를 강조해야 합니다. 또한 이러한 문제를 극복하기 위한 권장 사항도 제공해야 합니다. 그래프와 차트와 같은 데이터 시각 자료를 사용하여 조사 결과를 효과적으로 제시하세요.
+
+### User Message
+> 슬랙 애플리케이션에 대한 기술 보고서를 작성해 주세요.
+
+### Assistant Message (GPT-3.5-Turbo)
+> [프로젝트] 슬랙 애플리케이션 기술 보고서:우리는 [프로젝트] 슬랙 애플리케이션을 분석했습니다. 우리 조사 결과, 애플리케이션은 많은 유저들이 의견을 주고받으며 팀 전반의 커뮤니케이션 역할을 수행합니다. 그러나, 이 애플리케이션은 사용자가 쉽게 적응할 수 없는 디자인과 사용법으로 인해 초기 사용자 유치와 유지 관리에 어려움을 겪을 수 있습니다. 또한, 보안 문제가 발생할 가능성이 있어 보안 강화가 필요합니다.따라서, 우리는 초기 사용자 유치를 위해 애플리케이션의 사용법을 보다 직관적으로 개선하는 것이 필요하다고 판단했습니다. 또한, 기업에서 사용할 때 보안 기능을 제공하여 유저들이 안전하게 사용할 수 있도록 보완해야 합니다. 마지막으로, 애플리케이션 내 데이터 시각 자료를 더욱 다양하게 제공하여 사용자 친화적인 UI/UX를 제공하는 것도 필요합니다.이 보고서는 애플리케이션 분석 결과와 함께 문제점과 권장 사항을 제시합니다. 그래프와 차트를 활용하여 시각 자료로도 보여드릴 예정입니다.
+
+---
+
 ## Contributors 😍
 
-<a href="https://blog.hubspot.com/marketing/ai-prompt-examples">
+<a href="https://gigantic-grin-edb.notion.site/Prompt-Vault-cd2e028f317e432b9eaf90d51d09d682">
   Many thanks to these AI whisperers
 </a>
 
